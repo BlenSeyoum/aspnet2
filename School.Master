@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="School.master.cs" Inherits="Studentapp.School" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         <link rel="stylesheet" href="StyleSheetschool.css" type="text/css" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header"> <h1>School Application </h1> </div>
+                   <table >
+                     <tr>
+                        <td id="sidebar">
+                             <div id="menu"> 
+                                  
+                                        <ul>  
+                                            <li><a href="stdappWebForm.aspx">Students</a></li>  </br>
+                                            <li><a href="CourseRegDefault.aspx">Courses</a></li>    
+                                        </ul>  
+                                    
+                                </div>
+                            </td> 
+                           <td>
+                           <div id="content">
+                                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                  
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>             
+                 </table>
+              
+      <div id="footer">
+        <h2>ECX CopyRight @ 2019</h2>
+     </div>
+    </form>
+</body>
+</html>

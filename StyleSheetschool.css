@@ -1,0 +1,64 @@
+﻿
+body{
+     background-color: white;
+}
+
+
+#header {
+  background-color: darkblue;
+  font-size:x-large;
+  font-family:'Times New Roman';
+  text-align: center;
+  color: white;
+}
+#sidebar
+{
+    background-color: darkblue;
+    width: auto;
+    background-size:100%;
+}
+#menu{
+
+  background-color: darkblue;
+  font-size: large;
+  
+  font-family:'Times New Roman';
+  color: white;
+  
+}
+  
+    li  
+   {  
+    display: inline;   
+    
+    color: white;
+   }  
+   a{  
+      text-decoration: none;  
+      font-size: large;
+      text-align: left;
+      padding-right:20px;
+      font-family:'Times New Roman';
+      color: white;
+    }  
+   li a:hover{  
+    background-color: skyblue;  
+    color: red;  
+    
+      
+   }  
+#content {
+
+  background-color: white;
+  font-size: small;
+  text-align: left;
+  font-family:'Times New Roman';
+  
+}
+#footer {
+  background-color: darkblue;
+  font-size:medium;
+  font-family:'Times New Roman';
+  text-align: center;
+  color: white;
+}
